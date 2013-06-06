@@ -1,0 +1,36 @@
+<model xmlns:security="http://namespaces.plone.org/supermodel/security" xmlns:marshal="http://namespaces.plone.org/supermodel/marshal" xmlns:form="http://namespaces.plone.org/supermodel/form" xmlns="http://namespaces.plone.org/supermodel/schema">
+  <schema>
+    <field name="title" type="zope.schema.TextLine">
+      <description>Name of programme</description>
+      <title>Title</title>
+    </field>
+    <field name="tags" type="zope.schema.TextLine">
+      <description>Add related topics as tags</description>
+      <title>Tags</title>
+    </field>
+    <field name="related_programmes" type="zope.schema.Text">
+      <description>Add related programmes here.</description>
+      <title>Related Programmes</title>
+    </field>
+    <field name="partners" type="zope.schema.Text">
+      <description>Add partners here</description>
+      <title>Partners</title>
+    </field>
+    <field name="background_description" type="zope.schema.Text">
+      <description>Write about this programme here.</description>
+      <title>Background/Description</title>
+    </field>
+    <field name="problems" type="zope.schema.Text">
+      <description>Add problems faced here.</description>
+      <title>Problems</title>
+    </field>
+    <field name="ongoing_measures" type="zope.schema.Text">
+      <description>Write about ongoing measures here.</description>
+      <title>Ongoing Measures</title>
+    </field>
+    <field name="goals_objectives" type="zope.schema.Text">
+      <description>Write about goals and objectives here.</description>
+      <title>Goals/Objectives</title>
+    </field>
+  </schema>
+</model>
